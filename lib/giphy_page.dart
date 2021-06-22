@@ -3,7 +3,8 @@ import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 import 'package:share/share.dart';
 
-const String apiKey = 'mwk4uZ3ZD59NPjnm0NzEGtHBruddJcZD';
+// Put your API Key hare
+const String apiKey = 'API KEY';
 const String urlStart = 'https://api.giphy.com/v1/gifs/search?api_key=';
 const String urlEnd = '&limit=25&offset=0&rating=pg&lang=en&q=';
 
